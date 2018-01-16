@@ -22,7 +22,7 @@ public class ConfigClientController {
     private String someOtherProperty;
 
     @RequestMapping
-    public String prontConfig(){
+    public String printConfig(){
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append(properties.getProperty());
         stringBuilder.append(" | ");
